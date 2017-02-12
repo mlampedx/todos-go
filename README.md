@@ -1,2 +1,2 @@
 # todos-go
-RESTful routing for a task manager application built with Go.
+RESTful JSON API for a task manager application built with Go.
