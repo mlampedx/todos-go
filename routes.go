@@ -19,12 +19,12 @@ type Routes []Route
 
 // @desc routes is a struct literal of Route types
 
-const routes = Routes{
+var routes = Routes{
   Route{
     "Index",
     "GET",
     "/",
-    Index
+    Index,
   },
   Route{
     "TodoIndex",
